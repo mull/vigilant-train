@@ -1,23 +1,31 @@
-import logo from './logo.svg';
+import Collection from './components/Collection'
+
+
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <div className="App-header-box">
+          <h1 className="App-logo">The Movie Finder</h1>
+          <nav className="App-nav">
+            <ol className="App-nav-links">
+              <li>Movies</li>
+              <li>TV shows</li>
+              <li>Actors</li>
+            </ol>
+            <button className="App-nav-session">Sign in</button>
+          </nav>
+        </div>
       </header>
+      <section className="App-body">
+        <Collection />
+      </section>
+
+      <footer className="App-footer">
+        The Movie Finder
+      </footer>
     </div>
   );
 }

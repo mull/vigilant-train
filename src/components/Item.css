@@ -1,0 +1,43 @@
+.Item {
+    max-width: 153px;
+    position: relative;
+}
+
+.Item img {
+    border-radius: 4px;
+}
+
+.Item h2 {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px;
+    margin-top: 8px;
+    margin-bottom: 4px;
+}
+
+.Item-subtitle {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 16px;
+}
+
+.Item-bubble {
+    position: absolute;
+    background: white;
+    border-radius: 4px;
+    padding: 4px;
+    top: 12px;
+    right: 14px;
+    display: flex;
+    justify-content: center;
+}
+
+.Item-bubble svg {
+    font-size: 12px;
+    color: #FF8F3B;
+}
+
+.Item-bubble-rating {
+    padding-left: 4px;
+    font-size: 12px;
+}

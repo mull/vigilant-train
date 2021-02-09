@@ -1,0 +1,26 @@
+.Select {
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.04);
+    position: relative;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    padding: 0 2px;
+}
+
+.Select select {
+    appearance: none;
+    display: block;
+    width: 100%;
+    border: none;
+    padding: 0 24px 0 12px;
+    font-size: 14px;
+    height: 100%;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.Select svg {
+    position: absolute;
+    top: calc(50% - .5em);
+    right: 12px;
+}
